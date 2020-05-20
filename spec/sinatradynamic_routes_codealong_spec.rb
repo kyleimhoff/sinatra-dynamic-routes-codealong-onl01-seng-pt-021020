@@ -1,5 +1,5 @@
 require 'spec_helper'
-
+require_relative '../config/environment.rb'
 
 describe 'app.rb' do
   describe 'GET /goodbye/:name' do
